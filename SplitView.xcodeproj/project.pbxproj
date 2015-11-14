@@ -9,12 +9,10 @@
 /* Begin PBXBuildFile section */
 		2711E59E1BF77D4100F1FFB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2711E59D1BF77D4100F1FFB1 /* main.m */; };
 		2711E5A11BF77D4100F1FFB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2711E5A01BF77D4100F1FFB1 /* AppDelegate.m */; };
-		2711E5A41BF77D4100F1FFB1 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2711E5A31BF77D4100F1FFB1 /* MasterViewController.m */; };
 		2711E5A71BF77D4100F1FFB1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2711E5A61BF77D4100F1FFB1 /* DetailViewController.m */; };
 		2711E5AA1BF77D4100F1FFB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2711E5A81BF77D4100F1FFB1 /* Main.storyboard */; };
 		2711E5AC1BF77D4100F1FFB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2711E5AB1BF77D4100F1FFB1 /* Assets.xcassets */; };
 		2711E5AF1BF77D4100F1FFB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2711E5AD1BF77D4100F1FFB1 /* LaunchScreen.storyboard */; };
-		2711E5B81BF7800E00F1FFB1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2711E5B71BF7800E00F1FFB1 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,16 +20,12 @@
 		2711E59D1BF77D4100F1FFB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2711E59F1BF77D4100F1FFB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2711E5A01BF77D4100F1FFB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2711E5A21BF77D4100F1FFB1 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		2711E5A31BF77D4100F1FFB1 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		2711E5A51BF77D4100F1FFB1 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		2711E5A61BF77D4100F1FFB1 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		2711E5A91BF77D4100F1FFB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2711E5AB1BF77D4100F1FFB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2711E5AE1BF77D4100F1FFB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2711E5B01BF77D4100F1FFB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2711E5B61BF7800E00F1FFB1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		2711E5B71BF7800E00F1FFB1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +60,6 @@
 			children = (
 				2711E59F1BF77D4100F1FFB1 /* AppDelegate.h */,
 				2711E5A01BF77D4100F1FFB1 /* AppDelegate.m */,
-				2711E5B61BF7800E00F1FFB1 /* MainViewController.h */,
-				2711E5B71BF7800E00F1FFB1 /* MainViewController.m */,
-				2711E5A21BF77D4100F1FFB1 /* MasterViewController.h */,
-				2711E5A31BF77D4100F1FFB1 /* MasterViewController.m */,
 				2711E5A51BF77D4100F1FFB1 /* DetailViewController.h */,
 				2711E5A61BF77D4100F1FFB1 /* DetailViewController.m */,
 				2711E5A81BF77D4100F1FFB1 /* Main.storyboard */,
@@ -160,9 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2711E5A11BF77D4100F1FFB1 /* AppDelegate.m in Sources */,
-				2711E5A41BF77D4100F1FFB1 /* MasterViewController.m in Sources */,
 				2711E59E1BF77D4100F1FFB1 /* main.m in Sources */,
-				2711E5B81BF7800E00F1FFB1 /* MainViewController.m in Sources */,
 				2711E5A71BF77D4100F1FFB1 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +300,7 @@
 				2711E5B51BF77D4100F1FFB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
